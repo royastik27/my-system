@@ -1,0 +1,151 @@
+#window {
+    height: 82vh;
+    width: 72vw;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+#window-sidebar {
+    height: 82vh;
+    overflow-y: auto;
+    padding: 1rem;
+    background-color: #EBEBED;
+    border-radius: 1rem 0 0 1rem;
+    border-right: 0.07rem solid #DADADC;
+}
+
+#three-menu {
+    margin-left: 0.5rem;
+}
+
+#three-menu span {
+    /* border: 1px solid black; */
+    padding: 0.08rem 0.2rem;
+    border-radius: 3rem;
+    font-size: 0.6rem;
+    margin-right: 1rem;
+}
+
+#three-menu span i {
+    color: transparent;
+}
+#three-menu span i:hover {
+    color: black;
+}
+
+#three-menu .close {
+    background-color: #ED6B5E;
+}
+
+#three-menu .minimize {
+    background-color: #F4BE4F;
+}
+
+#three-menu .full-screen {
+    background-color: #61C554;
+}
+
+/* WINDOW SIDEBAR MENU */
+.window-sidebar-group {
+    margin-top: 1rem;
+}
+
+.window-sidebar-group .group-name {
+    font-weight: bold;
+    color: #ABABAB;
+    margin-bottom: 0.3rem;
+}
+
+.window-sidebar-group .group-menu {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.5rem;
+    /* border: 1px solid black; */
+}
+
+.window-sidebar-group .group-menu i {
+    margin-right: 0.5rem;
+    color: #1489FF;
+}
+
+.window-sidebar-group .group-menu:hover {
+    background-color: #3D92FC;
+    color: white;
+}
+
+.window-sidebar-group .group-menu:hover * {
+    color: white;
+}
+
+/* WINDOW RIGHTBAR */
+#window-rightbar {
+    padding: 0;
+    background-color: white;
+    border-radius: 0 1rem 1rem 0;
+}
+
+#window-rightbar .top {
+    padding: 0.5rem;
+    box-shadow: 0 0.08rem 0.15rem #DADADC;
+    background-color: #EBEBED;
+    border-radius: 0 1rem 0 0;
+    height: 3rem;
+}
+
+#window-rightbar .top button {
+    width: 2rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#window-name {
+    font-weight: bold;
+}
+
+#window-rightbar .right {
+    float: right;
+}
+
+#window-rightbar .down {
+    padding: 1.2rem;
+}
+
+/* CARDS */
+.folder {
+    margin-bottom: 0.3rem;
+    padding: 0.5rem;
+    background-color: #F2F2F2;
+    border-radius: 0.5rem;
+}
+
+.folder i {
+    color: #B6B5BA;
+}
+
+.folder .badge {
+    margin: 0 0.2rem;
+}
+
+.folder:hover {
+    background-color: #E7E7E7;
+}
+
+.folder:hover i {
+    color: #3D92FC;
+}
+
+.gray-button {
+    border: none;
+    padding: 0 2rem;
+    background-color: #ECECEC;
+    border: 0.1rem solid #A5A5A5;
+    border-radius: 1rem;
+}
+
+.gray-button:hover {
+    background-color: #D5D5D5;
+}

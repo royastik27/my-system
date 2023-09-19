@@ -1,0 +1,21 @@
+#dock-container {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0.2rem;
+    /* height: 4rem; */
+    /* border: 2px solid blueviolet; */
+}
+
+#dock {
+    display: table;
+    padding: 0.5rem;
+    background-color: rgba(149, 138, 200, 0.5);
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+#dock img {
+    margin: 0 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}

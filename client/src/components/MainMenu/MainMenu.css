@@ -1,0 +1,29 @@
+#main-menu {
+    background-color: rgba(234, 218, 231, 0.5);
+    color: black;
+}
+
+#main-menu .logo {
+    margin: 0 1rem;
+}
+
+#main-menu .app-name {
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+#main-menu .leftmenu, #main-menu .rightmenu {
+    display: inline-block;
+    padding: 0.1rem 0.7rem;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+#main-menu .leftmenu:hover, #main-menu .rightmenu:hover {
+    background-color: #287CF2;
+    color: white;
+}
+
+#main-menu .left {
+    float: right;
+}
