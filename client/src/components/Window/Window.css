@@ -130,6 +130,10 @@
     margin: 0 0.2rem;
 }
 
+.folder input[type="checkbox"] {
+    filter: sepia(100%);
+}
+
 .folder:hover {
     background-color: #E7E7E7;
 }

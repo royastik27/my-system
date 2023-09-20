@@ -2,8 +2,10 @@ import { Routes, Route } from 'react-router-dom';
 
 import './Window.css';
 
+import TimeTrackerTopbar from '../apps/TimeTracker/TimeTrackerTopbar';
 import TimeTrackerSidebar from '../apps/TimeTracker/TimeTrackerSidebar.js';
 import TimeTrackerRightbar from '../apps/TimeTracker/TimeTrackerRightbar';
+import TimeTrackerTopBar from '../apps/TimeTracker/TimeTrackerTopbar';
 
 function Window() {
     return (
@@ -31,7 +33,9 @@ function Window() {
                     <span id="window-name">Time Tracker</span>
 
                     <div className="right">
-                        <button><i className="fa-solid fa-magnifying-glass"></i></button>
+                        <Routes>
+                            <Route path="timetracker/*" element={<TimeTrackerTopBar />} />                        
+                        </Routes>
                     </div>
                 </div>
 

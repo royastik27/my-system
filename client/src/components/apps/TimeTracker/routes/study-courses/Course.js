@@ -14,7 +14,7 @@ function Chapter(props) {
                 {props.name}
             </div>
 
-            <div className="col-3">
+            <div className="col-4">
                 <span className="badge bg-danger">
                     {props.sure ? "sure" : "" }
                 </span>
@@ -24,10 +24,11 @@ function Chapter(props) {
             </div>
 
             <div className="col-2">
-                <input type="checkbox" defaultChecked={props.done}></input>
+                <input type="checkbox"
+                defaultChecked={props.done}></input>
             </div>
 
-            <div className="col-2">
+            <div className="col-1">
                 <i className="cursor-pointer fa-solid fa-trash"></i>
             </div>
         </div>

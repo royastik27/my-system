@@ -43,8 +43,8 @@ function StudyCourses() {
             
             <br></br>
             
-            <button class="gray-button">
-                <i class="fa-solid fa-plus"></i>
+            <button className="gray-button">
+                <i className="fa-solid fa-plus"></i>
             </button>
         </>
     );
